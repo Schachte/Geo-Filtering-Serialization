@@ -13,7 +13,7 @@ import org.opengis.filter.expression.Literal;
 public class PredicateSubstitutor implements Function {
   private static final String PLACEHOLDER = "{{replacement_data}}";
 
-  static final FunctionName NAME = new FunctionNameImpl("replaceme", String.class);
+  static final FunctionName NAME = new FunctionNameImpl("replacementFunc", String.class);
 
   public String getName() {
     return NAME.getName();

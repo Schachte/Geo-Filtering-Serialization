@@ -13,12 +13,35 @@ import org.opengis.filter.expression.Function;
 import org.opengis.filter.expression.VolatileFunction;
 
 public class TemplateProvider {
-  private static final String CQL_TEMPLATE = "(attName >= replaceme() AND title LIKE 'greetings')";
 
   public static void main(String[] args) throws Exception {
 
     /**
-     * When we get the user input, get preprocess all blank to pass in the name of the function This
+     {
+         attributeValues: [
+             {
+             name: "beNumber",
+             default: null
+             },
+             {
+             name: "cloudCoverage",
+             default: 0.98
+             }
+         ],
+         predicateTree: "(attName >= replacementFunc() AND title LIKE 'greetings') AND attName2 = replacementFunc()"
+     }
+     **/
+
+    /**
+     * This gets stripped off the incoming JSON blob
+     * Anything that contains "replacementFunc()" will get persisted as a valid XML function
+     **/
+
+    String CQL_TEMPLATE =
+        "(attName >= replacementFunc() AND title LIKE 'greetings') AND attName2 = replacementFunc()";
+
+    /**
+     * When we get the user input, preprocess all blank to pass in the name of the function This
      * will replace all the blanks with valid XML functions
      */
     Filter filter = CQL.toFilter(CQL_TEMPLATE);
@@ -35,7 +58,8 @@ public class TemplateProvider {
         encoder.encodeAsString(filter, new QName("http://www.opengis.net/fes/2.0", "Filter"));
 
     /**
-     * Print the output results for how the data is persisted and how the CQL gets returned before processing
+     * Print the output results for how the data is persisted and how the CQL gets returned before
+     * processing
      */
     filterToXML(xml);
     filterToCQl(subd);
