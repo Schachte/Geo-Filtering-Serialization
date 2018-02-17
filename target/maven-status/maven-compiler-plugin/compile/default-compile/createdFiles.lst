@@ -1,0 +1,5 @@
+com/connexta/testbed/PredicateSubstitutor.class
+com/connexta/testbed/PredicateSubstitutorFactory.class
+com/connexta/testbed/TemplateProvider.class
+com/connexta/testbed/TemplateProvider$SubstitutingVisitor.class
+com/connexta/testbed/TemplateProvider$1.class
