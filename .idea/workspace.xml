@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b631afc-6751-405d-bd1b-9e3a5ad94948" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java" afterPath="$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java" afterPath="$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -17,10 +19,29 @@
       <file leaf-file-name="FilterJaxB.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="640">
-              <caret line="112" column="38" lean-forward="true" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+            <state relative-caret-position="-23">
+              <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="e#4154#4155#0" expanded="true" />
+                <element signature="e#4189#4190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Template.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="626">
+              <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+              <folding>
+                <element signature="e#1419#1420#0" expanded="true" />
+                <element signature="e#1448#1449#0" expanded="true" />
+                <element signature="e#1480#1481#0" expanded="true" />
+                <element signature="e#1506#1507#0" expanded="true" />
+                <element signature="e#1537#1538#0" expanded="true" />
+                <element signature="e#1562#1563#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -58,8 +79,8 @@
         <option value="$PROJECT_DIR$/src/main/resources/Filter01.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/Filter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/XmlPlayground.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java" />
       </list>
     </option>
   </component>
@@ -361,12 +382,12 @@
       <updated>1518893672874</updated>
       <workItem from="1518893675700" duration="4966000" />
       <workItem from="1519143341291" duration="340000" />
-      <workItem from="1519143767895" duration="19049000" />
+      <workItem from="1519143767895" duration="19422000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24355000" />
+    <option name="totallyTimeSpent" value="24728000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1697" y="0" width="1697" height="1440" extended-state="0" />
@@ -950,22 +971,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="443">
-          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1228#1229#0" expanded="true" />
-            <element signature="e#1267#1268#0" expanded="true" />
-            <element signature="e#1303#1304#0" expanded="true" />
-            <element signature="e#1339#1340#0" expanded="true" />
-            <element signature="e#1374#1375#0" expanded="true" />
-            <element signature="e#1409#1410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
@@ -982,12 +987,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="43" column="31" lean-forward="false" selection-start-line="43" selection-start-column="31" selection-end-line="43" selection-end-column="31" />
+          <folding>
+            <element signature="e#1419#1420#0" expanded="true" />
+            <element signature="e#1448#1449#0" expanded="true" />
+            <element signature="e#1480#1481#0" expanded="true" />
+            <element signature="e#1506#1507#0" expanded="true" />
+            <element signature="e#1537#1538#0" expanded="true" />
+            <element signature="e#1562#1563#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="640">
-          <caret line="112" column="38" lean-forward="true" selection-start-line="112" selection-start-column="38" selection-end-line="112" selection-end-column="38" />
+        <state relative-caret-position="-23">
+          <caret line="27" column="27" lean-forward="false" selection-start-line="27" selection-start-column="27" selection-end-line="27" selection-end-column="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="e#4154#4155#0" expanded="true" />
+            <element signature="e#4189#4190#0" expanded="true" />
           </folding>
         </state>
       </provider>
