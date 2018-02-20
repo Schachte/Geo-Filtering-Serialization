@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><fes:Filter xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:fes="http://www.opengis.net/fes/2.0" xmlns:gml="http://www.opengis.net/gml/3.2">
+    <fes:Or>
+        <fes:PropertyIsLessThan matchAction="ANY" matchCase="false">
+            <fes:ValueReference>name</fes:ValueReference>
+            <fes:Function name="sub">
+                <fes:Literal>my-id</fes:Literal>
+            </fes:Function>
+        </fes:PropertyIsLessThan>
+        <fes:And>
+            <fes:PropertyIsGreaterThanOrEqualTo matchAction="ANY" matchCase="false">
+                <fes:ValueReference>attName</fes:ValueReference>
+                <fes:Literal>5</fes:Literal>
+            </fes:PropertyIsGreaterThanOrEqualTo>
+            <fes:PropertyIsLike escapeChar="\" matchCase="false" singleChar="?" wildCard="*">
+                <fes:ValueReference>title</fes:ValueReference>
+                <fes:Literal>greetings</fes:Literal>
+            </fes:PropertyIsLike>
+        </fes:And>
+    </fes:Or>
+</fes:Filter>

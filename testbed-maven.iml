@@ -77,5 +77,12 @@
     <orderEntry type="library" name="Maven: org.geotools.xsd:gt-xsd-ows:14.4" level="project" />
     <orderEntry type="library" name="Maven: org.geotools.xsd:gt-xsd-filter:14.4" level="project" />
     <orderEntry type="library" name="Maven: org.geotools.xsd:gt-xsd-gml2:14.4" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-impl:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: javax.xml.bind:jaxb-api:2.3.0" level="project" />
+    <orderEntry type="library" name="Maven: com.sun.xml.bind:jaxb-core:2.2.11" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.ogc:filter-v_2_0:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.ogc:ows-v_1_1_0:2.6.1" level="project" />
+    <orderEntry type="library" name="Maven: org.hisrc.w3c:xlink-v_1_0:1.4.0" level="project" />
+    <orderEntry type="library" name="Maven: org.jvnet.jaxb2_commons:jaxb2-basics-runtime:0.11.0" level="project" />
   </component>
 </module>

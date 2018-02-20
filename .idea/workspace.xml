@@ -2,12 +2,88 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7b631afc-6751-405d-bd1b-9e3a5ad94948" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_core_2_2_11.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_bind_jaxb_impl_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_xml_bind_jaxb_api_2_3_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_emf_common_2_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_emf_ecore_2_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_xsd_xsd_2_6_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_api_14_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_cql_14_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_graph_14_4.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hisrc_w3c_xlink_v_1_0_1_4_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_jaxb2_commons_jaxb2_basics_runtime_0_11_0.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_ogc_filter_v_2_0_2_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_ogc_ows_v_1_1_0_2_6_1.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__xml_apis_xml_apis_1_0_b2.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/resources/Filter01.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_google_guava_guava_17_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_googlecode_json_simple_json_simple_1_1.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_core_1_14_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_example_1_14_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_io_1_14_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_vividsolutions_jts_1_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_2_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_collections_commons_collections_3_1.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_geocore_1_1_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_geocore_1_1_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_streams_1_1_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_streams_1_1_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_tiff_1_1_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_tiff_1_1_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_utilities_1_1_18.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_imageio_ext_imageio_ext_utilities_1_1_13.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_affine_jt_affine_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_affine_jt_affine_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_algebra_jt_algebra_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_algebra_jt_algebra_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_bandcombine_jt_bandcombine_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_bandcombine_jt_bandcombine_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_bandmerge_jt_bandmerge_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_bandmerge_jt_bandmerge_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_bandselect_jt_bandselect_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_bandselect_jt_bandselect_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_binarize_jt_binarize_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_binarize_jt_binarize_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_border_jt_border_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_border_jt_border_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_buffer_jt_buffer_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_buffer_jt_buffer_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_classifier_jt_classifier_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_classifier_jt_classifier_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_colorconvert_jt_colorconvert_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_colorconvert_jt_colorconvert_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_colorindexer_jt_colorindexer_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_colorindexer_jt_colorindexer_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_crop_jt_crop_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_crop_jt_crop_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_errordiffusion_jt_errordiffusion_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_errordiffusion_jt_errordiffusion_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_format_jt_format_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_format_jt_format_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_imagefunction_jt_imagefunction_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_imagefunction_jt_imagefunction_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_iterators_jt_iterators_1_0_16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_lookup_jt_lookup_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_lookup_jt_lookup_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_mosaic_jt_mosaic_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_mosaic_jt_mosaic_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_nullop_jt_nullop_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_nullop_jt_nullop_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_orderdither_jt_orderdither_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_orderdither_jt_orderdither_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_piecewise_jt_piecewise_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_piecewise_jt_piecewise_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_rescale_jt_rescale_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_rescale_jt_rescale_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_rlookup_jt_rlookup_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_rlookup_jt_rlookup_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_scale_jt_scale_1_0_16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_stats_jt_stats_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_stats_jt_stats_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_translate_jt_translate_1_0_16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_utilities_jt_utilities_1_0_16.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_vectorbin_jt_vectorbin_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_vectorbin_jt_vectorbin_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_warp_jt_warp_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_warp_jt_warp_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_zonal_jt_zonal_1_0_16.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__it_geosolutions_jaiext_zonal_jt_zonal_1_0_9.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_emf_org_eclipse_emf_common_2_12_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_emf_org_eclipse_emf_ecore_2_12_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_emf_org_eclipse_emf_ecore_xmi_2_12_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_eclipse_xsd_org_eclipse_xsd_2_12_0.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_api_18_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_coverage_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_coverage_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_cql_18_2.xml" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_main_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_main_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_metadata_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_metadata_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_opengis_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_opengis_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_referencing_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_gt_referencing_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_ogc_net_opengis_fes_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_ogc_net_opengis_ows_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_ogc_net_opengis_ows_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_ogc_net_opengis_fes_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_ogc_org_w3_xlink_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_ogc_org_w3_xlink_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_core_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_gml2_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_fes_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_ows_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_filter_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_filter_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_gml2_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_gml3_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_gml3_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_core_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_ows_18_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_geotools_xsd_gt_xsd_fes_14_4.xml" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutor.java" afterPath="$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutor.java" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java" afterPath="$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/connexta/testbed/PredicateSubstitutor.class" afterPath="$PROJECT_DIR$/target/classes/com/connexta/testbed/PredicateSubstitutor.class" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/connexta/testbed/TemplateProvider$SubstitutingVisitor.class" afterPath="$PROJECT_DIR$/target/classes/com/connexta/testbed/TemplateProvider$SubstitutingVisitor.class" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/connexta/testbed/TemplateProvider.class" afterPath="$PROJECT_DIR$/target/classes/com/connexta/testbed/TemplateProvider.class" />
+      <change beforePath="$PROJECT_DIR$/testbed-maven.iml" afterPath="$PROJECT_DIR$/testbed-maven.iml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -18,125 +94,132 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="TemplateProvider.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Filter01.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/Filter01.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
-              <folding>
-                <element signature="method#filterToXML#0;class#TemplateProvider#0" expanded="false" />
-                <element signature="method#setupEncoder#0;class#TemplateProvider#0" expanded="false" />
-                <element signature="method#getFuncFactory#0;class#TemplateProvider#0" expanded="false" />
-                <element signature="method#printSeparator#0;class#TemplateProvider#0" expanded="false" />
-                <element signature="class#SubstitutingVisitor#0;class#TemplateProvider#0" expanded="false" />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CQL.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-cql/18.2/gt-cql-18.2.jar!/org/geotools/filter/text/cql2/CQL.class">
+      <file leaf-file-name="FilterJaxB.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="269">
-              <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
+            <state relative-caret-position="-780">
+              <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#constructRootElement#0;class#FilterJaxB#0" expanded="false" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CompilerUtil.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-cql/18.2/gt-cql-18.2.jar!/org/geotools/filter/text/commons/CompilerUtil.class">
+      <file leaf-file-name="Template.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+            <state relative-caret-position="443">
+              <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1228#1229#0" expanded="true" />
+                <element signature="e#1267#1268#0" expanded="true" />
+                <element signature="e#1303#1304#0" expanded="true" />
+                <element signature="e#1339#1340#0" expanded="true" />
+                <element signature="e#1374#1375#0" expanded="true" />
+                <element signature="e#1409#1410#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="FilterType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/FilterType.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="124" column="16" lean-forward="false" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
+              <folding>
+                <element signature="e#4152#4153#0" expanded="true" />
+                <element signature="e#4189#4190#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LogicalOperators.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/LogicalOperators.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-829">
+              <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="CommonFactoryFinder.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-api/18.2/gt-api-18.2.jar!/org/geotools/factory/CommonFactoryFinder.class">
+      <file leaf-file-name="AbstractUnmarshallerImpl.java" pinned="false" current-in-tab="false">
+        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/xml/bind/helpers/AbstractUnmarshallerImpl.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="173">
-              <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+            <state relative-caret-position="-2101">
+              <caret line="173" column="24" lean-forward="false" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="33" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="DuplicatingFilterVisitor.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/visitor/DuplicatingFilterVisitor.class">
+      <file leaf-file-name="BinaryLogicOpType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/BinaryLogicOpType.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+            <state relative-caret-position="330">
+              <caret line="214" column="35" lean-forward="false" selection-start-line="214" selection-start-column="35" selection-end-line="214" selection-end-column="35" />
+              <folding>
+                <element signature="e#3011#3012#0" expanded="true" />
+                <element signature="e#3042#3043#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ComparisonOperatorsType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/ComparisonOperatorsType.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="269">
+              <caret line="175" column="16" lean-forward="false" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="IsLessThenImpl.class" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/IsLessThenImpl.class">
+      <file leaf-file-name="BinaryComparisonOpType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/BinaryComparisonOpType.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="287">
-              <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-              <folding>
-                <element signature="e#1634#1635#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="414">
+              <caret line="295" column="8" lean-forward="false" selection-start-line="295" selection-start-column="8" selection-end-line="295" selection-end-column="8" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="PredicateSubstitutorFactory.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutorFactory.java">
+      <file leaf-file-name="LogicOpsType.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/LogicOpsType.class">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-              <folding>
-                <element signature="e#515#516#0" expanded="true" />
-                <element signature="e#584#585#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PredicateSubstitutor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
-              <folding>
-                <element signature="e#680#681#0" expanded="true" />
-                <element signature="e#711#712#0" expanded="true" />
-                <element signature="e#754#755#0" expanded="true" />
-                <element signature="e#775#776#0" expanded="true" />
-                <element signature="e#820#821#0" expanded="true" />
-                <element signature="e#854#855#0" expanded="true" />
-                <element signature="e#893#894#0" expanded="true" />
-                <element signature="e#948#949#0" expanded="true" />
-                <element signature="e#991#992#0" expanded="true" />
-                <element signature="e#1046#1047#0" expanded="true" />
-                <element signature="e#1051#1081#0" expanded="true" />
-                <element signature="e#1457#1458#0" expanded="true" />
-                <element signature="e#1504#1505#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+            <state relative-caret-position="896">
+              <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
@@ -158,6 +241,11 @@
       <list>
         <option value="$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutor.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/Filter01.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/Filter.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/XmlPlayground.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java" />
       </list>
     </option>
   </component>
@@ -167,11 +255,11 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="18" />
-    <option name="y" value="28" />
-    <option name="width" value="1680" />
-    <option name="height" value="1028" />
+  <component name="ProjectFrameBounds" extendedState="6" fullScreen="true">
+    <option name="x" value="-2560" />
+    <option name="y" value="22" />
+    <option name="width" value="2048" />
+    <option name="height" value="1080" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -190,45 +278,108 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="AndroidView" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="testbed-maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testbed-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testbed-maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testbed-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testbed-maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testbed-maven" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="testbed-maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testbed-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="testbed-maven" type="b2602c69:ProjectViewProjectNode" />
-              <item name="testbed-maven" type="462c0819:PsiDirectoryNode" />
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="connexta" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="connexta" type="462c0819:PsiDirectoryNode" />
               <item name="testbed" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="connexta" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="xml" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="GeoToolsFiltering" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="services" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jvnet.ogc:filter-v_2_0:2.6.1" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jvnet.ogc:filter-v_2_0:2.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="filter-v_2_0-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="GeoToolsFiltering" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.jvnet.ogc:filter-v_2_0:2.6.1" type="70bed36:NamedLibraryElementNode" />
+              <item name="filter-v_2_0-2.6.1.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="v_2_0" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -237,6 +388,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="SearchEverywhereHistoryKey" value="binarycomparisonop&#9;PSI&#9;JAVA://net.opengis.filter.v_2_0.BinaryComparisonOpType" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -250,13 +402,32 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.FilterJaxB">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="FilterJaxB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="com.connexta.xml.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="com.connexta.xml.FilterJaxB" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="testbed-maven" />
+      <envs />
     </configuration>
     <configuration name="TemplateProvider" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -351,9 +522,14 @@
       <option name="PROGRAM_PARAMETERS" />
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="Application.TemplateProvider" />
+      <item index="1" class="java.lang.String" itemvalue="Application.FilterJaxB" />
+    </list>
     <recent_temporary>
-      <list size="1">
-        <item index="0" class="java.lang.String" itemvalue="Application.TemplateProvider" />
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="Application.FilterJaxB" />
+        <item index="1" class="java.lang.String" itemvalue="Application.TemplateProvider" />
       </list>
     </recent_temporary>
   </component>
@@ -371,43 +547,45 @@
       <option name="presentableId" value="Default" />
       <updated>1518893672874</updated>
       <workItem from="1518893675700" duration="4966000" />
+      <workItem from="1519143341291" duration="340000" />
+      <workItem from="1519143767895" duration="14958000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4966000" />
+    <option name="totallyTimeSpent" value="20264000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="18" y="28" width="1680" height="1028" extended-state="0" />
-    <editor active="true" />
+    <frame x="-1697" y="0" width="1697" height="1440" extended-state="6" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32978722" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294964" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.328777" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17913966" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Armory" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32948717" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38705036" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -418,106 +596,577 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="7" />
+      <option name="time" value="20" />
     </breakpoint-manager>
     <watches-manager />
   </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>filter.getValue().getLogicOps()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BinaryLogicOpType) data).ops.</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>net.opengis.filter.v_2_0.BinaryLogicOpType</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.value()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BinaryLogicOpType) list.value).ops</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>net.opengis.filter.v_2_0.BinaryLogicOpType</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>((BinaryLogicOpType) list.value).ops.forEach(d -&gt; System.out.println(d.getName()));</expression-string>
+        <language-id>JAVA</language-id>
+        <custom-info>net.opengis.filter.v_2_0.BinaryLogicOpType</custom-info>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.getItems</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>list.getLogicOps().getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>filter.getValue().logicOps.getValue()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-api/18.2/gt-api-18.2.jar!/org/geotools/factory/CommonFactoryFinder.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="173">
-          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/IsLessThenImpl.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="287">
-          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
-          <folding>
-            <element signature="e#1634#1635#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/visitor/DuplicatingFilterVisitor.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-cql/18.2/gt-cql-18.2.jar!/org/geotools/filter/text/cql2/CQL.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="269">
+        <state relative-caret-position="476">
           <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <marker date="1519051971000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519051971000" expanded="false" signature="153:619" ph="..." />
+            <marker date="1519051971000" expanded="true" signature="658:665" ph="{}" />
+            <marker date="1519051971000" expanded="true" signature="742:841" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="947:1144" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1230:1302" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1417:1631" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1719:1831" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1889:2296" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2344:2521" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2577:2768" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2892:3109" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="3160:4393" ph="{...}" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-cql/18.2/gt-cql-18.2.jar!/org/geotools/filter/text/commons/CompilerUtil.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
+        <state relative-caret-position="1960">
           <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1519051971000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519051971000" expanded="false" signature="156:346" ph="..." />
+            <marker date="1519051971000" expanded="true" signature="409:416" ph="{}" />
+            <marker date="1519051971000" expanded="true" signature="547:878" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="980:1233" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1372:1715" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1825:1960" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2095:2442" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2548:2687" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2839:3051" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="3195:3387" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="3552:3771" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-api/18.2/gt-api-18.2.jar!/org/geotools/factory/CommonFactoryFinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3948">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/visitor/DuplicatingFilterVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <marker date="1519051975000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519051975000" expanded="false" signature="151:2770" ph="..." />
+            <marker date="1519051975000" expanded="false" signature="2933:2944" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3016:3022" ph=" }" />
+            <marker date="1519051975000" expanded="false" signature="3083:3094" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3112:3118" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="3178:3275" ph="{...}" />
+            <marker date="1519051975000" expanded="false" signature="3340:3351" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3365:3371" ph=" }" />
+            <marker date="1519051975000" expanded="false" signature="3436:3447" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3461:3467" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="3541:3639" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="3695:4168" ph="{...}" />
+            <marker date="1519051975000" expanded="false" signature="4222:4233" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="4295:4301" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="4357:4463" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="4518:4990" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="5060:5390" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="5460:5769" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="5842:6154" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="6228:6500" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="6583:6862" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="6933:7202" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="7282:7558" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="7625:8077" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="8144:8280" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="8346:8504" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="8561:9144" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="9203:9580" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="9641:9905" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="9965:10228" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="10289:10553" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="10613:10991" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="11050:11311" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="11374:11640" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="11701:11965" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="12025:12288" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="12347:12609" ph="{...}" />
+            <marker date="1519051975000" expanded="false" signature="12662:12673" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="12685:12691" ph=" }" />
+            <marker date="1519051975000" expanded="false" signature="12760:12771" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="12789:12795" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="12855:13081" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="13144:13373" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="13438:14045" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14109:14190" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14255:14486" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14555:14678" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14743:14974" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15031:15205" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15276:15478" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15537:15715" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15774:15952" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16013:16195" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16254:16432" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16493:16675" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16730:16900" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16957:17131" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17188:17362" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17433:17635" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17699:17886" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17946:18125" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="18189:18376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/IsLessThenImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutorFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
+        <state relative-caret-position="476">
           <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
-          <folding>
-            <element signature="e#515#516#0" expanded="true" />
-            <element signature="e#584#585#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
+        <state relative-caret-position="252">
           <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="0" lean-forward="true" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="18" column="0" lean-forward="false" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-api/18.2/gt-api-18.2.jar!/org/geotools/factory/CommonFactoryFinder.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3948">
+          <caret line="160" column="0" lean-forward="false" selection-start-line="160" selection-start-column="0" selection-end-line="160" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/IsLessThenImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="924">
+          <caret line="43" column="0" lean-forward="false" selection-start-line="43" selection-start-column="0" selection-end-line="43" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-cql/18.2/gt-cql-18.2.jar!/org/geotools/filter/text/cql2/CQL.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="31" column="0" lean-forward="false" selection-start-line="31" selection-start-column="0" selection-end-line="31" selection-end-column="0" />
           <folding>
-            <element signature="e#680#681#0" expanded="true" />
-            <element signature="e#711#712#0" expanded="true" />
-            <element signature="e#754#755#0" expanded="true" />
-            <element signature="e#775#776#0" expanded="true" />
-            <element signature="e#820#821#0" expanded="true" />
-            <element signature="e#854#855#0" expanded="true" />
-            <element signature="e#893#894#0" expanded="true" />
-            <element signature="e#948#949#0" expanded="true" />
-            <element signature="e#991#992#0" expanded="true" />
-            <element signature="e#1046#1047#0" expanded="true" />
-            <element signature="e#1051#1081#0" expanded="true" />
-            <element signature="e#1457#1458#0" expanded="true" />
-            <element signature="e#1504#1505#0" expanded="true" />
+            <marker date="1519051971000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519051971000" expanded="false" signature="153:619" ph="..." />
+            <marker date="1519051971000" expanded="true" signature="658:665" ph="{}" />
+            <marker date="1519051971000" expanded="true" signature="742:841" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="947:1144" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1230:1302" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1417:1631" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1719:1831" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1889:2296" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2344:2521" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2577:2768" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2892:3109" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="3160:4393" ph="{...}" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-cql/18.2/gt-cql-18.2.jar!/org/geotools/filter/text/commons/CompilerUtil.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1960">
+          <caret line="77" column="0" lean-forward="false" selection-start-line="77" selection-start-column="0" selection-end-line="77" selection-end-column="0" />
+          <folding>
+            <marker date="1519051971000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519051971000" expanded="false" signature="156:346" ph="..." />
+            <marker date="1519051971000" expanded="true" signature="409:416" ph="{}" />
+            <marker date="1519051971000" expanded="true" signature="547:878" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="980:1233" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1372:1715" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="1825:1960" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2095:2442" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2548:2687" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="2839:3051" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="3195:3387" ph="{...}" />
+            <marker date="1519051971000" expanded="true" signature="3552:3771" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/gt-main/18.2/gt-main-18.2.jar!/org/geotools/filter/visitor/DuplicatingFilterVisitor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1680">
+          <caret line="133" column="0" lean-forward="false" selection-start-line="133" selection-start-column="0" selection-end-line="133" selection-end-column="0" />
+          <folding>
+            <marker date="1519051975000" expanded="false" signature="0:104" ph="/.../" />
+            <marker date="1519051975000" expanded="false" signature="151:2770" ph="..." />
+            <marker date="1519051975000" expanded="false" signature="2933:2944" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3016:3022" ph=" }" />
+            <marker date="1519051975000" expanded="false" signature="3083:3094" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3112:3118" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="3178:3275" ph="{...}" />
+            <marker date="1519051975000" expanded="false" signature="3340:3351" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3365:3371" ph=" }" />
+            <marker date="1519051975000" expanded="false" signature="3436:3447" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="3461:3467" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="3541:3639" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="3695:4168" ph="{...}" />
+            <marker date="1519051975000" expanded="false" signature="4222:4233" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="4295:4301" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="4357:4463" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="4518:4990" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="5060:5390" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="5460:5769" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="5842:6154" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="6228:6500" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="6583:6862" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="6933:7202" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="7282:7558" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="7625:8077" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="8144:8280" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="8346:8504" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="8561:9144" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="9203:9580" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="9641:9905" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="9965:10228" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="10289:10553" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="10613:10991" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="11050:11311" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="11374:11640" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="11701:11965" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="12025:12288" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="12347:12609" ph="{...}" />
+            <marker date="1519051975000" expanded="false" signature="12662:12673" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="12685:12691" ph=" }" />
+            <marker date="1519051975000" expanded="false" signature="12760:12771" ph=" { " />
+            <marker date="1519051975000" expanded="false" signature="12789:12795" ph=" }" />
+            <marker date="1519051975000" expanded="true" signature="12855:13081" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="13144:13373" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="13438:14045" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14109:14190" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14255:14486" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14555:14678" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="14743:14974" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15031:15205" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15276:15478" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15537:15715" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="15774:15952" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16013:16195" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16254:16432" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16493:16675" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16730:16900" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="16957:17131" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17188:17362" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17433:17635" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17699:17886" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="17946:18125" ph="{...}" />
+            <marker date="1519051975000" expanded="true" signature="18189:18376" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutorFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="27" column="1" lean-forward="false" selection-start-line="27" selection-start-column="1" selection-end-line="27" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/PredicateSubstitutor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="18" column="25" lean-forward="false" selection-start-line="18" selection-start-column="25" selection-end-line="18" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/TemplateProvider.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="43" column="35" lean-forward="true" selection-start-line="43" selection-start-column="35" selection-end-line="43" selection-end-column="35" />
+        <state relative-caret-position="533">
+          <caret line="53" column="79" lean-forward="false" selection-start-line="53" selection-start-column="79" selection-end-line="53" selection-end-column="79" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../filterschema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="448">
+          <caret line="16" column="9" lean-forward="false" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/com/connexta/xml/filterschema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="17" column="14" lean-forward="false" selection-start-line="17" selection-start-column="14" selection-end-line="17" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/filterschema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="727">
+          <caret line="27" column="76" lean-forward="false" selection-start-line="27" selection-start-column="76" selection-end-line="27" selection-end-column="76" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/filterschema1.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/testbed/filterschema.xsd">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="274">
+          <caret line="13" column="43" lean-forward="false" selection-start-line="13" selection-start-column="43" selection-end-line="13" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/geotools/ogc/net.opengis.fes/14.4/net.opengis.fes-14.4.jar!/net/opengis/fes20/impl/BinaryComparisonOpTypeImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="28" column="13" lean-forward="false" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Answer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="22" column="33" lean-forward="true" selection-start-line="22" selection-start-column="33" selection-end-line="22" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/BinaryComparisonOpType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="295" column="8" lean-forward="false" selection-start-line="295" selection-start-column="8" selection-end-line="295" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Question.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="8" column="13" lean-forward="false" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Filter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/XmlPlayground.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="19" column="44" lean-forward="false" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/Filter01.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/LogicOpsType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="896">
+          <caret line="54" column="0" lean-forward="true" selection-start-line="54" selection-start-column="0" selection-end-line="54" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/xml/bind/Unmarshaller.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="295">
+          <caret line="430" column="18" lean-forward="false" selection-start-line="430" selection-start-column="18" selection-end-line="430" selection-end-column="27" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_161.jdk/Contents/Home/src.zip!/javax/xml/bind/helpers/AbstractUnmarshallerImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2101">
+          <caret line="173" column="24" lean-forward="false" selection-start-line="173" selection-start-column="24" selection-end-line="173" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/BinaryLogicOpType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="214" column="35" lean-forward="false" selection-start-line="214" selection-start-column="35" selection-end-line="214" selection-end-column="35" />
           <folding>
-            <element signature="method#filterToXML#0;class#TemplateProvider#0" expanded="false" />
-            <element signature="method#setupEncoder#0;class#TemplateProvider#0" expanded="false" />
-            <element signature="method#getFuncFactory#0;class#TemplateProvider#0" expanded="false" />
-            <element signature="method#printSeparator#0;class#TemplateProvider#0" expanded="false" />
-            <element signature="class#SubstitutingVisitor#0;class#TemplateProvider#0" expanded="false" />
+            <element signature="e#3011#3012#0" expanded="true" />
+            <element signature="e#3042#3043#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/LogicalOperators.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-829">
+          <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/ObjectFactory.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="498">
+          <caret line="124" column="28" lean-forward="false" selection-start-line="124" selection-start-column="28" selection-end-line="124" selection-end-column="28" />
+          <folding>
+            <element signature="e#8166#8167#0" expanded="true" />
+            <element signature="e#8211#8212#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/FilterType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="124" column="16" lean-forward="false" selection-start-line="124" selection-start-column="16" selection-end-line="124" selection-end-column="16" />
+          <folding>
+            <element signature="e#4152#4153#0" expanded="true" />
+            <element signature="e#4189#4190#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/jvnet/ogc/filter-v_2_0/2.6.1/filter-v_2_0-2.6.1.jar!/net/opengis/filter/v_2_0/ComparisonOperatorsType.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="269">
+          <caret line="175" column="16" lean-forward="false" selection-start-line="175" selection-start-column="16" selection-end-line="175" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/Template.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="443">
+          <caret line="45" column="28" lean-forward="false" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1228#1229#0" expanded="true" />
+            <element signature="e#1267#1268#0" expanded="true" />
+            <element signature="e#1303#1304#0" expanded="true" />
+            <element signature="e#1339#1340#0" expanded="true" />
+            <element signature="e#1374#1375#0" expanded="true" />
+            <element signature="e#1409#1410#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/connexta/xml/FilterJaxB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-780">
+          <caret line="38" column="71" lean-forward="false" selection-start-line="38" selection-start-column="71" selection-end-line="38" selection-end-column="71" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="method#constructRootElement#0;class#FilterJaxB#0" expanded="false" />
           </folding>
         </state>
       </provider>

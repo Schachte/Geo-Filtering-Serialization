@@ -9,9 +9,11 @@ import org.geotools.filter.FunctionFactory;
 import org.geotools.filter.text.cql2.CQL;
 import org.geotools.filter.text.ecql.ECQL;
 import org.geotools.filter.v2_0.FESConfiguration;
+import org.geotools.filter.visitor.DefaultFilterVisitor;
 import org.geotools.filter.visitor.DuplicatingFilterVisitor;
 import org.geotools.xml.Encoder;
 import org.opengis.filter.*;
+import org.opengis.filter.expression.Expression;
 import org.opengis.filter.expression.Function;
 import org.opengis.filter.expression.VolatileFunction;
 
@@ -33,13 +35,11 @@ public class TemplateProvider {
         "(attName >= replacementFunc() AND title like 'test') AND attName2 = replacementFunc()";
 
     /**
-     * The problem is that the replacement function
-     */
-
-    /**
      * When we get the user input, preprocess all blank to pass in the name of the function This
      * will replace all the blanks with valid XML functions
      */
+
+    Expression func =  ECQL.toExpression("replacementFunc()");
     Filter filter = CQL.toFilter(CQL_TEMPLATE);
 
     // Setup a substitution visitor that can traverse through the tree
