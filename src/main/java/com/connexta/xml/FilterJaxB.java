@@ -32,7 +32,7 @@ public class FilterJaxB {
         nodeList.add(leafNode2);
         nodeList.add(leafNode3);
 
-        Template.FilterNode fN = new Template.FilterNode("Or", nodeList);
+        Template.FilterNode fN = new Template.FilterNode("And", nodeList);
         Template newTemplate = new Template("100", "Template 1", "This is a template", fN);
 
         print(String.format("Template id is %s", newTemplate.id));
@@ -71,6 +71,7 @@ public class FilterJaxB {
         JAXBElement<String> attr2Property =
                 factory.createValueReference(fN.nodes.get(1).getProperty());
         LiteralType attr2ValueLiteral = new LiteralType();
+        attr2ValueLiteral.setType(new QName("literalNameTest"));
         attr2ValueLiteral.getContent().add(fN.nodes.get(1).getValue());
 
         JAXBElement<LiteralType> attr2Value = factory.createLiteral(attr2ValueLiteral);
@@ -78,8 +79,26 @@ public class FilterJaxB {
         attrName2LTETwenty.getExpression().add(attr2Property);
         attrName2LTETwenty.getExpression().add(attr2Value);
 
+        /**
+         *
+         * LETS CREATE THE THRID CHILD ELEMENT
+         */
+        BinaryComparisonOpType functionTest = new BinaryComparisonOpType();
+        _blop.getOps().add(factory.createPropertyIsEqualTo(functionTest));
+
+        JAXBElement<String> attr3Property =
+                factory.createValueReference(fN.nodes.get(1).getProperty());
+        FunctionType funcTest = new FunctionType();
+        funcTest.getExpression().add(attr2Value);
+        funcTest.setName("functionName");
+
+        JAXBElement<FunctionType> attr3Func = factory.createFunction(funcTest);
+
+        functionTest.getExpression().add(attr3Property);
+        functionTest.getExpression().add(attr3Func);
 
         Marshaller marshaller = context.createMarshaller();
+        marshaller.setProperty(Marshaller.JAXB_FORMATTED_OUTPUT, true);
         marshaller.marshal(root, System.out);
 
         // Unmarshal sample XML to understand object structure of JaxB filter 2.0 XML POJO
@@ -90,7 +109,7 @@ public class FilterJaxB {
     public static JAXBElement<BinaryLogicOpType> constructRootElement(BinaryLogicOpType ele, ObjectFactory f, String rootType) throws Exception {
 
         switch (rootType) {
-            case "Or":
+            case "And":
                 return f.createAnd(ele);
             default:
                 throw new Exception("Error");
